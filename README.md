@@ -28,6 +28,10 @@ Adminuser: hareesh/admin
 
 #Postman Rest Client Collection : https://www.getpostman.com/collections/8355952dbcb0ce84ad74
 
+#Swagger UI Cloud: http://hareesh-rest-api.us-east-1.elasticbeanstalk.com/hareesh-demo/swagger-ui.html
+
+#Swagger UI Local: http://localhost:8080/hareesh-demo/swagger-ui.html
+
 <h4>API Details</h4>
 #API Name  - Token Generation
 
