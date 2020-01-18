@@ -26,6 +26,8 @@ Adminuser: hareesh/admin
 
 #REST APi details are provided below:
 
+#Postman Rest Client Collection : https://www.getpostman.com/collections/8355952dbcb0ce84ad74
+
 <h4>API Details</h4>
 #API Name  - Token Generation
 
