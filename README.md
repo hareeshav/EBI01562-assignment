@@ -32,7 +32,9 @@ Adminuser: hareesh/admin
 URL - http://localhost:8080/hareesh-demo/token/generate-token
 
 Method - POST
+
 Header - Content-Type: application/json
+
 Body -
 <code>
 {
@@ -57,9 +59,12 @@ Response :
 URL - http://localhost:8080/hareesh-demo/persons
 
 Method - Get
+
 Header - Content-Type: application/json
+
 </code>
     Authorization : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXJlZXNoIiwic2NvcGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn1dLCJpc3MiOiJjb20uaGFyZWVzaCIsImlhdCI6MTU3OTMzMTI0NSwiZXhwIjoxNTc5MzQ5MjQ1fQ.AzbhGkJhtGdsvndbvp8niWFfmvaPQD6QY9TBwzXzUHE
+    
 Response -
 {
     "status": 200,
@@ -85,9 +90,12 @@ Response -
 URL - http://localhost:8080/hareesh-demo/persons
 
 Method - POST
+
 Header - Content-Type: application/json
+
 <code>
      Authorization : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXJlZXNoIiwic2NvcGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn1dLCJpc3MiOiJjb20uaGFyZWVzaCIsImlhdCI6MTU3OTMzMTI0NSwiZXhwIjoxNTc5MzQ5MjQ1fQ.AzbhGkJhtGdsvndbvp8niWFfmvaPQD6QY9TBwzXzUHE
+	
 Body -
 {
 	"firstName":"test",
@@ -120,9 +128,12 @@ Response -
 URL - http://localhost:8080/hareesh-demo/persons/1
 
 Method - PUT
+
 Header - Content-Type: application/json
+
 <code>
     Authorization : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXJlZXNoIiwic2NvcGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn1dLCJpc3MiOiJjb20uaGFyZWVzaCIsImlhdCI6MTU3OTMzMTI0NSwiZXhwIjoxNTc5MzQ5MjQ1fQ.AzbhGkJhtGdsvndbvp8niWFfmvaPQD6QY9TBwzXzUHE
+	
 Body -
 {
 	"firstName":"testupdated",
@@ -156,7 +167,9 @@ Response -
 URL - http://localhost:8080/hareesh-demo/persons/1
 
 Method - DELETE
+
 Header - Content-Type: application/json
+
 <code>
     Authorization : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXJlZXNoIiwic2NvcGVzIjpbeyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn1dLCJpc3MiOiJjb20uaGFyZWVzaCIsImlhdCI6MTU3OTMzMTI0NSwiZXhwIjoxNTc5MzQ5MjQ1fQ.AzbhGkJhtGdsvndbvp8niWFfmvaPQD6QY9TBwzXzUHE
 
