@@ -1,0 +1,35 @@
+<div class="col-md-8 user-container">
+    <h2 style="margin: auto"> Person Details</h2>
+    <button class="btn btn-primary" style="width:100px" (click)="addPerson()"> Add</button>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="hidden">Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <th>Favourite Colour</th>
+                <th>Hobby</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let person of persons">
+                <!-- <p class="">{{person.hobbies.join(', ')}}</p> -->
+                <td class="hidden">{{person.id}}</td>
+                <td>{{person.firstName}}</td>
+                <td>{{person.lastName}}</td>
+                <td>{{person.age}}</td>
+                <td>{{person.favColour}}</td>
+                <!-- <td *ngFor="let info of person.hobby.split(',')">{{info}}</td> -->
+                <!-- <td *ngFor="let role of person.hobby">{{role}}</td> -->
+                <td> {{ person.hobbies.join(', ') }} </td>
+                <!-- <td>{{person.hobby}}</td> -->
+                <td>
+                    <button class="btn btn-danger" (click)="deletePerson(person)"> Delete</button>
+                    <button class="btn btn-success" (click)="editPerson(person)" style="margin-left: 20px;"> Edit</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

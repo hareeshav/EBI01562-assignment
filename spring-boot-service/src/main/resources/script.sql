@@ -1,0 +1,1 @@
+--INSERT INTO user (id, firstname, lastname, username, password, salary, age) VALUES (1, 'Hareesh','A V', 'admin','admin123', 1000, 31);
