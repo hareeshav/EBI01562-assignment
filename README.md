@@ -35,7 +35,7 @@ Adminuser: hareesh/admin
 <h4>API Details</h4>
 #API Name  - Token Generation
 
-URL - http://localhost:8080/hareesh-demo/token/generate-token
+URL - http://hareesh-rest-api.us-east-1.elasticbeanstalk.com/hareesh-demo/token/generate-token
 
 Method - POST
 
@@ -62,7 +62,7 @@ Response :
 
 #API Name  - List Persons
 
-URL - http://localhost:8080/hareesh-demo/persons
+URL - http://hareesh-rest-api.us-east-1.elasticbeanstalk.com/hareesh-demo/persons
 
 Method - Get
 
@@ -93,7 +93,7 @@ Response -
 
 #API Name  - Create Person
 
-URL - http://localhost:8080/hareesh-demo/persons
+URL - http://hareesh-rest-api.us-east-1.elasticbeanstalk.com/hareesh-demo/persons
 
 Method - POST
 
@@ -131,7 +131,7 @@ Response -
 
 #API Name  - Update Person
 
-URL - http://localhost:8080/hareesh-demo/persons/1
+URL - http://hareesh-rest-api.us-east-1.elasticbeanstalk.com/hareesh-demo/persons/1
 
 Method - PUT
 
@@ -170,7 +170,7 @@ Response -
 
 #API Name  - Delete Person
 
-URL - http://localhost:8080/hareesh-demo/persons/1
+URL - http://hareesh-rest-api.us-east-1.elasticbeanstalk.com/hareesh-demo/persons/1
 
 Method - DELETE
 
